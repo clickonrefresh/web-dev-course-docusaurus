@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2b70c072-9ae6-4510-8829-e7ce16a6f186/deploy-status)](https://app.netlify.com/sites/web-dev-course-docusaurus/deploys)
+
 # Web Dev Course Docusaurus
 
 ## Project hosted @
