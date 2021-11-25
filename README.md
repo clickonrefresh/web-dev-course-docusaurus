@@ -2,11 +2,11 @@
 
 # Web Dev Course Docusaurus
 
-## Project hosted @
+## Project hosted @ [Netlify](https://web-dev-course-docusaurus.netlify.app/)
 
-## Code @ 
+## Code @ [github](https://github.com/clickonrefresh/web-dev-course-docusaurus)
 
-## 
+## Use this project to follow along with web dev course
 
 # Website
 
