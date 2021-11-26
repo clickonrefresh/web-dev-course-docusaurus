@@ -1,9 +1,15 @@
+---
+sidebar_label: "Intro"
+sidebar_position: 1
+---
+
 URL = Uniform Resource Locator
 URI = Unifor Resource Identifier
 
 http = hyper text transfer protocol
 
 A web server is a machine conmnected to the internet whose job is to satisfy web requests
+
 - handles things like requests, and user accessessabilty
 - responsible for positive and negative responses ie: negative = 404 error( page does not exist)
 
@@ -11,4 +17,3 @@ Server - Client Architecture
 
 Server Side = the machine hosting the web program
 Client = The machine from which the requests are made ie your laptop
-

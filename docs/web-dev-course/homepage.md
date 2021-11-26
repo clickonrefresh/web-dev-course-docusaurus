@@ -1,8 +1,6 @@
 ---
 sidebar_label: "Web Dev Course!"
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# Hello
-
-This is my **first Docusaurus document**!
+# [Web Developers Bootcamp Course](/docs/web-dev-course/webdev)
