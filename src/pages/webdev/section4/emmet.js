@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+import React from "react";
+import Layout from "@theme/Layout";
+
+export default function MyReactPage() {
+  return (
+    <Layout>
+
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,11 +17,11 @@
     <main>
       <section>
         <h1>
-          ><span>
+          <span>
             <canvas>
               <h1></h1>
               <h2>
-                <code> canvas>nav>ul>li*5>a[href=www.$.com]{CLick Me!} </code>
+                {/* <code> canvas>nav>ul>li*5>a[href=www.$.com]{CLick Me!} </code> */}
               </h2>
               <h2></h2>
             </canvas>
@@ -35,3 +42,7 @@
     </main>
   </body>
 </html>
+
+</Layout>
+);
+}

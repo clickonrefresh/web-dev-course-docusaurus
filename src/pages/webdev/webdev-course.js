@@ -1,4 +1,5 @@
 import "./styles.css"
+
 import React from "react";
 import Layout from "@theme/Layout";
 
@@ -18,12 +19,15 @@ export default function MyReactPage() {
 
     /> */}
         <div>
-          <h1>Make Your Selection</h1>
-          <h2>Monty Python Shenanigans</h2>
+          <h1>Web Development Bootcamp</h1>
+          <h2><a href="https://udemy.com/course/the-web-developer-bootcamp">Full Stack Web Dev Course on Udemy</a></h2>
+          <h2><a href="/webdev/webdev-course">Full Stack Web Dev Course JS Pages</a></h2>
+          <h2><a href="/webdev/webdev-course-notes">Full Stack Web Dev Course MD Pages</a></h2>
+          <h2><a href="/docs/web-dev-course/homepage">Full Stack Web Dev Course Notes Section</a></h2>
 
           <ol>
             <li>
-              <a href="section3/stoning.html">
+              <a href="section3/stoning">
                 Section 3:
                 <span>
                   Monty Python The Life of Brian - Scene 4, The Stoning
@@ -31,7 +35,7 @@ export default function MyReactPage() {
               </a>
             </li>
             <li>
-              <a href="section3/sceana-ix.html">
+              <a href="section3/sceana-ix">
                 Section 3:
                 <span>
                   Monty Python The Life of Brian - Scene 9, Brian Learns To
@@ -40,9 +44,15 @@ export default function MyReactPage() {
               </a>
             </li>
             <li>
-              <a href="section4/emmet.html">
+              <a href="section4/emmet">
                 Section 4:
                 <span>Emmet in VSCode</span>
+              </a>
+            </li>
+            <li>
+              <a href="section5/">
+                Section 5:
+                <span>HTML Tables & Forms</span>
               </a>
             </li>
           </ol>
