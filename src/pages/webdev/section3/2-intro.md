@@ -19,12 +19,16 @@ An example of basic formatting, if you want italics:
 ## HTML Elements
 
 - HTML Elements are defined using a tags:
+
+```
 <tag>this is content</tag>
 <paragraph>this is a sentence</paragraph>
 <p>paragraph</p>
+```
 
 ## HTML Elements:
 
+```
 <p>paragraph</p>
 
 <h1>HEADING 1</h1>
@@ -38,10 +42,13 @@ An example of basic formatting, if you want italics:
 <i>italics</i>
 
 <b>bold</b>
+```
 
 ## HTML tags have an opening tag and a closing tag, but not always
 
+```
 <h3>There are many html elements used in reality, <b>and they are often nested</b></h3>
 
 <h1>So what is html in a nutshell?</h1>
 <p>html is used to <b>"make this part bold"</b>, or <link>"Make this a link"</link> or make this paragraph</p>
+```

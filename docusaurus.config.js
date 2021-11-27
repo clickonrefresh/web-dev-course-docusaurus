@@ -10,7 +10,7 @@ const config = {
   tagline: 'Dinosaurs are cool, especially for documentation',
   url: 'https://web-dev-course-docusaurus.netlify.app/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'clickonrefresh', // Usually your GitHub org/user name.

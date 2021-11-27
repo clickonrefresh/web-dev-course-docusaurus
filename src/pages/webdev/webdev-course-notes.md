@@ -1,10 +1,9 @@
 ---
-sidebar_label: "Web Dev Course!"
+sidebar_label: "Web Dev Course Notes!"
 sidebar_position: 7
 ---
 
-# Web Dev course
+# Web Dev Course Notes
 
-markdown homepage
-s
-[js homepage](/webdev-course)
+
+[Web Dev Course Notes 'markdown pages in docs'](/docs/web-dev-course/homepage)
