@@ -7,7 +7,7 @@ import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -20,17 +20,25 @@ function HomepageHeader() {
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
+        <br />
+        <div>
+          <Link
+            className="button button--secondary button--lg"
+            to="/webdev/webdev-course">
+            Web Dev Course Pages ⏱️
+          </Link>
+        </div>
       </div>
     </header>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Learn ${siteConfig.title}`}
+      description="So far just the docusaurus for my web dev course">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -1,5 +1,10 @@
-<!DOCTYPE html>
-<html>
+import React from "react";
+import Layout from "@theme/Layout";
+
+export default function MyReactPage() {
+  return (
+    <Layout>
+
 
 
 <head>
@@ -263,4 +268,6 @@
 </body>
 <h3><a href="index.html">Home</a></h3>
 
-</html>
+</Layout>
+  );
+}

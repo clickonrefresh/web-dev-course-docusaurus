@@ -1,23 +1,22 @@
+import "./styles.css"
 import React from "react";
 import Layout from "@theme/Layout";
 
 export default function MyReactPage() {
   return (
     <Layout>
-      <head>
-        <link rel="stylesheet" href="styles.css" />
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Web Dev Bootcamp</title>
-      </head>
 
       <body>
-        <img
-          src="https://raw.githubusercontent.com/clickonrefresh/textures/main/clickonrefresh1.png"
-          alt="Logo"
-          label="Clickonrefresh"
-        />
+      {/* <img
+      // src="https://images.unsplash.com/photo-1583642037383-861ac716c3f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      // alt="Logo"
+      // label="Clickonrefresh"
+      // width="100%"
+      // height="100%"
+      // background-position="absolute"
+
+
+    /> */}
         <div>
           <h1>Make Your Selection</h1>
           <h2>Monty Python Shenanigans</h2>
@@ -81,13 +80,9 @@ export default function MyReactPage() {
             </ul>
           </ul>
 
-          <img
-            src="assets/bamboo.png"
-            alt="Bamboo Background"
-            label="Bamboo Background"
-          />
         </div>
       </body>
+
     </Layout>
   );
 }

@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Clickonrefreshusaurus',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'clickonrefresh',
           src: 'img/logo.svg',
         },
         items: [
@@ -53,11 +53,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Vlob', position: 'left'},
+          {to: '/webdev/webdev-course', label: 'Web Course', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/clickonrefresh/web-dev-course-docusaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -80,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/users/15358258/clickonrefresh',
               },
               {
                 label: 'Discord',
@@ -88,7 +89,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/clickonrefresh',
               },
             ],
           },
@@ -101,7 +102,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/clickonrefresh',
               },
             ],
           },
