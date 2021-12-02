@@ -80,6 +80,34 @@ export default function MyReactPage() {
           </tbody>
         </table>
 
+        <h3>Forms Demo</h3>
+
+        <form action="/regsinbaka">
+          <input type="text" placeholder="just text like name" />
+          <input type="password" placeholder="password" />
+          <input type="email" placeholder="email" />
+          <input type="currency" placeholder="currency" />
+          <table>
+            <input type="checkbox" />
+            <input type="color" />
+            <input type="date" />
+            <input type="datetime-local" />
+            <input type="file" />
+            <input type="image" alt="image" placeholder="image" />
+            <input type="number" placeholder="numbers only" />
+            <input type="radio" />
+            <input type="range" />
+
+            <input type="search" placeholder="search" />
+            <input type="submit" />
+            <input type="url" placeholder="url" />
+            <input type="reset" />
+          </table>
+          <h4>
+            You want the regsinbaka? All input type in this form fall under the
+            form action of "/regsinbaka"
+          </h4>
+        </form>
         <p className={styles.foot}>
           OMG I added the className config by myself that pushed the text in
           slightly from the left Im so clever!
