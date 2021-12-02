@@ -1,30 +1,32 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+import React from "react";
+import clsx from "clsx";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import styles from "./index.module.css";
+import HomepageFeatures from "../components/HomepageFeatures";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/intro"
+          >
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
         <br />
-        <div>
+        <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/webdev/webdev-course">
+            to="/webdev/webdev-course"
+          >
             Web Dev Course Pages ⏱️
           </Link>
         </div>
@@ -38,7 +40,8 @@ export default function Home() {
   return (
     <Layout
       title={`Learn ${siteConfig.title}`}
-      description="So far just the docusaurus for my web dev course">
+      description="My Documentation Hub"
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
