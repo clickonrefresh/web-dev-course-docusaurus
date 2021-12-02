@@ -10,9 +10,18 @@ export default function MyReactPage() {
         <table className={styles.table}>
           <thead>
             <tr>
-              <th className={styles.th}>Animal</th>
-              <th className={styles.th}>Average Mass [kg (lb)]</th>
-              <th className={styles.th}>Flighted</th>
+              <th className={styles.th} rowspan="2">
+                Animal
+              </th>
+              <th className={styles.th} colspan="2">
+                Average Mass [kg (lb)]
+              </th>
+              <th className={styles.th} rowspan="2">
+                Flighted
+              </th>
+              <th className={styles.th} rowspan="2">
+                Extinct
+              </th>
             </tr>
             <tr>
               <th className={styles.th}>kg</th>
