@@ -1,7 +1,7 @@
 .cont {
-    padding-left: 2em;
-    padding-top: 10px;
-  }
+  padding-left: 2em;
+  padding-top: 10px;
+}
 
 .table {
   padding-left: 3rem;
@@ -9,4 +9,10 @@
 
 .th {
   color: rgb(63, 155, 63);
+}
+
+.foot {
+  text-align: center;
+  position: relative;
+  padding-top: 15em;
 }
