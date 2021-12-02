@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./styles.css";
 
 import React from "react";
 import Layout from "@theme/Layout";
@@ -6,9 +6,8 @@ import Layout from "@theme/Layout";
 export default function MyReactPage() {
   return (
     <Layout>
-
       <body>
-      {/* <img
+        {/* <img
       // src="https://images.unsplash.com/photo-1583642037383-861ac716c3f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
       // alt="Logo"
       // label="Clickonrefresh"
@@ -20,10 +19,26 @@ export default function MyReactPage() {
     /> */}
         <div>
           <h1>Web Development Bootcamp</h1>
-          <h2><a href="https://udemy.com/course/the-web-developer-bootcamp">Full Stack Web Dev Course on Udemy</a></h2>
-          <h2><a href="/webdev/webdev-course">Full Stack Web Dev Course JS Pages</a></h2>
-          <h2><a href="/webdev/webdev-course-notes">Full Stack Web Dev Course MD Pages</a></h2>
-          <h2><a href="/docs/web-dev-course/homepage">Full Stack Web Dev Course Notes Section</a></h2>
+          <h2>
+            <a href="https://udemy.com/course/the-web-developer-bootcamp">
+              Full Stack Web Dev Course on Udemy
+            </a>
+          </h2>
+          <h2>
+            <a href="/webdev/webdev-course">
+              Full Stack Web Dev Course JS Pages
+            </a>
+          </h2>
+          <h2>
+            <a href="/webdev/webdev-course-notes">
+              Full Stack Web Dev Course MD Pages
+            </a>
+          </h2>
+          <h2>
+            <a href="/docs/web-dev-course/homepage">
+              Full Stack Web Dev Course Notes Section
+            </a>
+          </h2>
 
           <ol>
             <li>
@@ -50,7 +65,7 @@ export default function MyReactPage() {
               </a>
             </li>
             <li>
-              <a href="section5/">
+              <a href="section5/section5">
                 Section 5:
                 <span>HTML Tables & Forms</span>
               </a>
@@ -89,10 +104,8 @@ export default function MyReactPage() {
               </li>
             </ul>
           </ul>
-
         </div>
       </body>
-
     </Layout>
   );
 }
