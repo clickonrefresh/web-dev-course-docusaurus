@@ -5,10 +5,12 @@ sidebar_position: 2
 # HTML Tables
 
 ## What are tables?
+
 Tables are structured sets of data, comprised of rows and columns.
 Tables are a great way of displaying data clearly.
 
 ## Early Useage
+
 Table sused to be used to layout a websites content.
 It was difficult to arrange things and make them look nice for layouts.
 

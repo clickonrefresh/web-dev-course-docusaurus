@@ -15,5 +15,10 @@ sidebar_position: 3
 <colgroup>
 <caption>
 ```
+
+tr = table row
+td = table data
+th = table header ( different to table head, thead)
+
 Make a table using these elements displaying the heaviest living bird species.
 The course practical can be found in pages, specifically for this [practise](/webdev/section5/section5)
