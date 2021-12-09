@@ -2,6 +2,8 @@
 sidebar_position: 6
 ---
 
+[The course practise section](/webdev/section5/section5)
+
 # HTML Forms
 
 - The `<form>` element itself is just a container which groups all the form html elements together, such as buttons, and input boxes
@@ -30,3 +32,13 @@ action="/search/" this is a relative path
 
 - Used to create a variety of of form controls (20+)
 - Input takes the attribute prop 'type', and type changes the way an input attribute behaves dramatically
+
+## 48 - Labels
+
+Labels associate form actions with their respective descriptions.
+This helps in cases like clicking on the label will control the form action too.
+Better for SEO
+
+#### There are 2 attributes which help associate a label to a form action:
+-  input 'id'
+- label 'for'

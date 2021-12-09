@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import styles from "./custom.module.css";
+// import  "../../../../static/img/docusaurus.png"
 
 export default function MyReactPage() {
   return (
@@ -80,37 +81,110 @@ export default function MyReactPage() {
           </tbody>
         </table>
 
-        <h3>Forms Demo</h3>
+        <h3>Forms Input types Demo</h3>
+    
+        <form action="/regsinbaka" className={styles.tbody} colspan="10">
+          <p>
+          <label for="username" >Enter a username</label>
+          <input id="username" type="text" placeholder="just text like name" />
+          </p>
+          <p>
+          <label for="password">Choose a password</label>
+          <input id="password" type="password" placeholder="password" />
+          </p>
 
-        <form action="/regsinbaka">
-          <input type="text" placeholder="just text like name" />
-          <input type="password" placeholder="password" />
-          <input type="email" placeholder="email" />
-          <input type="currency" placeholder="currency" />
-          <table>
-            <input type="checkbox" />
-            <input type="color" />
-            <input type="date" />
-            <input type="datetime-local" />
-            <input type="file" />
-            <input type="image" alt="image" placeholder="image" />
-            <input type="number" placeholder="numbers only" />
-            <input type="radio" />
-            <input type="range" />
+          <p>
+          <label for="email">Enter your email address</label>
+          <input id="email" type="email" placeholder="email" />
+          </p>
+          <p>
+          <label for="currency">Select your currency</label>
+          <input id="currency" type="currency" placeholder="currency" />
+          </p>
 
-            <input type="search" placeholder="search" />
-            <input type="submit" />
-            <input type="url" placeholder="url" />
-            <input type="reset" />
-          </table>
+          <br />
+          <p>
+            <label for="checkbox">Checkbox</label>
+            <input id="checkbox" type="checkbox" />
+            </p>
+            <p>
+            <label for="color">Color</label>
+            <input id="color" type="color" />
+            </p>
+            <p>
+            <label for="date">Date</label>
+            <input id="date" type="date" />
+            </p>
+            <p>
+            <label for="datetime-local">datetime-local</label>
+            <input id="datetime-local" type="datetime-local" />
+            </p>
+            <p>
+            <label for="file">File</label>
+            <input id="file" type="file" />
+            </p>
+            <p>
+            <label for="img">Image</label>
+            <input id="img" type="image" alt="image" placeholder="image" src="static/img/docusaurus.png"/>
+            </p>
+            <p>
+            <label for="numbers">Numbers</label>
+            <input id="numbers" type="number" placeholder="numbers only" />
+            </p>
+            <p>
+            <label for="radio">Radio Button</label>
+            <input id="radio" type="radio" />
+            </p>
+            <p>
+            <label for="range">Range Slider</label>
+            <input id="range" type="range" />
+            </p>
+            <p>
+            <label for="search">Search</label>
+            <input id="search" type="search" placeholder="search" />
+            </p>
+            <p>
+            <label for="submit">Submit</label>
+            <input id="submit" type="submit" />
+            </p>
+            <p>
+            <label for="url">URL</label>
+            <input id="url" type="url" placeholder="url" />
+            </p>
+            <p>
+            <label for="reset">Reset - resets all form actions in the form div</label>
+            <input id="reset" type="reset" />
+            </p>
+
+
+            <p>
+              <label>you can also nest inputs inside labels, but more common not to.
+                <input type="button" placeholder="button" />
+              </label>
+            </p>
           <h4>
-            You want the regsinbaka? All input type in this form fall under the
-            form action of "/regsinbaka"
+            form 'action'="/path" is the path of the request
           </h4>
         </form>
+
+        <h3>Form Labels</h3>
+        <form action="/labels">
+          <div class="preference">
+            <label for="cheese">Do you like cheese?</label>
+            <input type="checkbox" name="cheese" id="cheese" />
+          </div>
+          <div class="preference">
+            <label for="peas">What about peas?</label>
+            <input type="range" name="peas" id="peas" />
+          </div>
+          <div class="preference">
+            <label for="ofthese">All 3 of these have id's?</label>
+            <input type="checkbox" name="ofthese" id="ofthese" />
+          </div>
+        </form>
+
         <p className={styles.foot}>
-          OMG I added the className config by myself that pushed the text in
-          slightly from the left Im so clever!
+          This is a footer div!
         </p>
       </div>
     </Layout>
