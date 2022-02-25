@@ -82,86 +82,87 @@ export default function MyReactPage() {
         </table>
 
         <h3>Forms Input types Demo</h3>
-    
+
         <form action="/regsinbaka" className={styles.tbody} colspan="10">
+          <button>Got to the regsinbaka. regsinbaka is a placeholder name for the button url associated with this form</button>
           <p>
-          <label for="username" >Enter a username</label>
-          <input id="username" type="text" placeholder="just text like name" />
+            <label for="username" >Enter a username</label>
+            <input id="username" type="text" placeholder="just text like name" />
           </p>
           <p>
-          <label for="password">Choose a password</label>
-          <input id="password" type="password" placeholder="password" />
+            <label for="password">Choose a password</label>
+            <input id="password" type="password" placeholder="password" />
           </p>
 
           <p>
-          <label for="email">Enter your email address</label>
-          <input id="email" type="email" placeholder="email" />
+            <label for="email">Enter your email address</label>
+            <input id="email" type="email" placeholder="email" />
           </p>
           <p>
-          <label for="currency">Select your currency</label>
-          <input id="currency" type="currency" placeholder="currency" />
+            <label for="currency">Select your currency</label>
+            <input id="currency" type="currency" placeholder="currency" />
           </p>
 
           <br />
           <p>
             <label for="checkbox">Checkbox</label>
             <input id="checkbox" type="checkbox" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="color">Color</label>
             <input id="color" type="color" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="date">Date</label>
             <input id="date" type="date" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="datetime-local">datetime-local</label>
             <input id="datetime-local" type="datetime-local" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="file">File</label>
             <input id="file" type="file" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="img">Image</label>
-            <input id="img" type="image" alt="image" placeholder="image" src="static/img/docusaurus.png"/>
-            </p>
-            <p>
+            <input id="img" type="image" alt="image" placeholder="image" src="static/img/docusaurus.png" />
+          </p>
+          <p>
             <label for="numbers">Numbers</label>
             <input id="numbers" type="number" placeholder="numbers only" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="radio">Radio Button</label>
             <input id="radio" type="radio" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="range">Range Slider</label>
             <input id="range" type="range" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="search">Search</label>
             <input id="search" type="search" placeholder="search" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="submit">Submit</label>
             <input id="submit" type="submit" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="url">URL</label>
             <input id="url" type="url" placeholder="url" />
-            </p>
-            <p>
+          </p>
+          <p>
             <label for="reset">Reset - resets all form actions in the form div</label>
             <input id="reset" type="reset" />
-            </p>
+          </p>
 
 
-            <p>
-              <label>you can also nest inputs inside labels, but more common not to.
-                <input type="button" placeholder="button" />
-              </label>
-            </p>
+          <p>
+            <label>you can also nest inputs inside labels, but more common not to.
+              <input type="button" placeholder="button" />
+            </label>
+          </p>
           <h4>
             form 'action'="/path" is the path of the request
           </h4>
@@ -172,6 +173,7 @@ export default function MyReactPage() {
           <div class="preference">
             <label for="cheese">Do you like cheese?</label>
             <input type="checkbox" name="cheese" id="cheese" />
+            <button type="button">This buttons attribute is set to button, so that it does not by default act as a submit button in a form</button>
           </div>
           <div class="preference">
             <label for="peas">What about peas?</label>
@@ -180,8 +182,21 @@ export default function MyReactPage() {
           <div class="preference">
             <label for="ofthese">All 3 of these have id's?</label>
             <input type="checkbox" name="ofthese" id="ofthese" />
+            <input type="submit" value="SubMITT QUUEEEEEEEEEEERy" />
+            {/* <!-- this button doesnt submit the form /bc of the "type" attribute --> */}
+
+            <button type="button">Regular button(wont submit)</button>
+
+            {/* <!-- This button submits the form --> */}
+
+            <button>Submit!</button>
+
+            {/* <!-- So does this one --> */}
+
+            <input type="submit" value="click me!"></input>
           </div>
         </form>
+<button>Outside of the form element a button has no default function of submit anymore</button>
 
         <p className={styles.foot}>
           This is a footer div!
