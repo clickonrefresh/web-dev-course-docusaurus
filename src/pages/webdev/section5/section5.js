@@ -84,23 +84,41 @@ export default function MyReactPage() {
         <h3>Forms Input types Demo</h3>
 
         <form action="/regsinbaka" className={styles.tbody} colspan="10">
-          <button>Got to the regsinbaka. regsinbaka is a placeholder name for the button url associated with this form</button>
+          <button>
+            Got to the regsinbaka. regsinbaka is a placeholder name for the
+            button url associated with this form
+          </button>
           <p>
-            <label for="username" >Enter a username</label>
-            <input id="username" type="text" placeholder="just text like name" />
+            <label for="username">Enter a username</label>
+            <input
+              id="username"
+              type="text"
+              placeholder="just text like name"
+              name="username"
+            />
           </p>
           <p>
             <label for="password">Choose a password</label>
-            <input id="password" type="password" placeholder="password" />
+            <input
+              id="password"
+              type="password"
+              placeholder="password"
+              name="password"
+            />
           </p>
 
           <p>
             <label for="email">Enter your email address</label>
-            <input id="email" type="email" placeholder="email" />
+            <input id="email" type="email" placeholder="email" name="email" />
           </p>
           <p>
             <label for="currency">Select your currency</label>
-            <input id="currency" type="currency" placeholder="currency" />
+            <input
+              id="currency"
+              type="currency"
+              placeholder="currency"
+              name="currency"
+            />
           </p>
 
           <br />
@@ -110,15 +128,19 @@ export default function MyReactPage() {
           </p>
           <p>
             <label for="color">Color</label>
-            <input id="color" type="color" />
+            <input id="color" type="color" name="color" />
           </p>
           <p>
             <label for="date">Date</label>
-            <input id="date" type="date" />
+            <input id="date" type="date" name="date" />
           </p>
           <p>
             <label for="datetime-local">datetime-local</label>
-            <input id="datetime-local" type="datetime-local" />
+            <input
+              id="datetime-local"
+              type="datetime-local"
+              name="datetime-local"
+            />
           </p>
           <p>
             <label for="file">File</label>
@@ -126,7 +148,13 @@ export default function MyReactPage() {
           </p>
           <p>
             <label for="img">Image</label>
-            <input id="img" type="image" alt="image" placeholder="image" src="static/img/docusaurus.png" />
+            <input
+              id="img"
+              type="image"
+              alt="image"
+              placeholder="image"
+              src="static/img/docusaurus.png"
+            />
           </p>
           <p>
             <label for="numbers">Numbers</label>
@@ -153,19 +181,19 @@ export default function MyReactPage() {
             <input id="url" type="url" placeholder="url" />
           </p>
           <p>
-            <label for="reset">Reset - resets all form actions in the form div</label>
+            <label for="reset">
+              Reset - resets all form actions in the form div
+            </label>
             <input id="reset" type="reset" />
           </p>
 
-
           <p>
-            <label>you can also nest inputs inside labels, but more common not to.
+            <label>
+              you can also nest inputs inside labels, but more common not to.
               <input type="button" placeholder="button" />
             </label>
           </p>
-          <h4>
-            form 'action'="/path" is the path of the request
-          </h4>
+          <h4>form 'action'="/path" is the path of the request</h4>
         </form>
 
         <h3>Form Labels</h3>
@@ -173,7 +201,10 @@ export default function MyReactPage() {
           <div class="preference">
             <label for="cheese">Do you like cheese?</label>
             <input type="checkbox" name="cheese" id="cheese" />
-            <button type="button">This buttons attribute is set to button, so that it does not by default act as a submit button in a form</button>
+            <button type="button">
+              This buttons attribute is set to button, so that it does not by
+              default act as a submit button in a form
+            </button>
           </div>
           <div class="preference">
             <label for="peas">What about peas?</label>
@@ -196,11 +227,55 @@ export default function MyReactPage() {
             <input type="submit" value="click me!"></input>
           </div>
         </form>
-<button>Outside of the form element a button has no default function of submit anymore</button>
+        <button>
+          Outside of the form element a button has no default function of submit
+          anymore
+        </button>
 
-        <p className={styles.foot}>
-          This is a footer div!
-        </p>
+        <div className={styles.cont}>
+          <h1>The Name Attribute</h1>
+          <form action="/login" className={styles.tbody} colspan="10">
+            <button>
+              the name attribute is what defines the html element being used or
+              called. be precise in the naming or servers can misidentify your
+              tags. The current method of fetching data is using a standard getr
+              request, this is why we see the name an dpassword being passed
+              into the url
+            </button>
+            <p>
+              <label for="username">Enter a username</label>
+              <input
+                id="username"
+                type="text"
+                placeholder="just text like name"
+                name="username"
+              />
+            </p>
+            <p>
+              <label for="password">Choose a password</label>
+              <input id="password" type="password" placeholder="password" />
+            </p>
+          </form>
+        </div>
+        <div>
+          <form action="https://www.youtube.com/results">
+            <input type="text" name="search_query" />
+            <button>Search Youtube</button>
+          </form>
+          <form action="https://www.google.com/search">
+            <input type="text" name="q" />
+            <button>Search Google</button>
+          </form>
+          <form action="https://www.reddit.com/search">
+            <input type="text" name="q" />
+            <button>Reddit Google</button>
+          </form>
+          <form action="https://www.google.com/search">
+            <input type="text" name="q" />
+            <button>Jeffrey and the scrotes</button>
+          </form>
+        </div>
+        <p className={styles.foot}>This is a footer div!</p>
       </div>
     </Layout>
   );
