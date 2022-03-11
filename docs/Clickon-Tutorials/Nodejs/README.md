@@ -43,3 +43,13 @@ nvm list-remote
 ```
 nvm install node # installs latest stable version
 ```
+# Install Node via Node Version Manager
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+# run these commands to startup nvm
+export NVM_DIR="$HOME/.nvm" 
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+# Install Node --lts version
+nvm install --lts
+# If you use yarn
+# corepack enable
