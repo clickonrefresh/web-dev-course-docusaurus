@@ -49,10 +49,10 @@ nvm list-remote
 ```
 
 ```
-nvm install node # installs latest stable version
+nvm install node # installs latest version
 ```
 
-## recommended
+## recommended install latest stable version or yarn
 
 ```
 nvm install --lts
@@ -63,3 +63,5 @@ nvm install --lts
 ```
 corepack enabled
 ```
+
+you may be prompted to update yarn with a provided curl command.
