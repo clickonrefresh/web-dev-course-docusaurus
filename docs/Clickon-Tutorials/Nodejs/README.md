@@ -65,3 +65,7 @@ corepack enabled
 ```
 
 you may be prompted to update yarn with a provided curl command.
+
+```
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+```
