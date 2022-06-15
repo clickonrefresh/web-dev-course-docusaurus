@@ -268,7 +268,7 @@ export default function MyReactPage() {
           </form>
           <form action="https://www.reddit.com/search">
             <input type="text" name="q" />
-            <button>Reddit Google</button>
+            <button>Reddit Search</button>
           </form>
           <form action="https://www.google.com/search">
             <input type="text" name="q" />
